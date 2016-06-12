@@ -11,7 +11,15 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Nhap vao : Dai Hoc Bach Khoa");
+        NSString *input = @"Dai Hoc Bach Khoa";
+        NSArray *output = [input componentsSeparatedByString:@" "];
+        for (int i=0;i < [output count];i++)
+        {
+            NSLog(@" %@ ",[output objectAtIndex:i]);
+        }
+        NSLog(@" %@ and %@",[input substringToIndex:([input length]/2)],[input substringFromIndex:([input length]/2)]);
+        
     }
     return 0;
 }
