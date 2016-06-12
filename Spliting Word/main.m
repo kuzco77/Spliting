@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
+       
         NSLog(@"Nhap vao : Dai Hoc Bach Khoa");
         NSString *input = @"Dai Hoc Bach Khoa";
         NSArray *output = [input componentsSeparatedByString:@" "];
