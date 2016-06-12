@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
         NSLog(@"Nhap vao : Dai Hoc Bach Khoa");
-        NSString *input = @"Dai Hoc Bach Khoa";
+        NSString *input = @"Dai Hoc Bach Khoa"; // Phai nhap chay :(
         NSArray *output = [input componentsSeparatedByString:@" "];
         for (int i=0;i < [output count];i++)
         {
